@@ -5,5 +5,5 @@ int main()
 {
 	std::cout<<"Hello World"<<std::endl;
 	MyClass obj(1, 2);
-	std::cout<<obj.regVar<<std::endl;
+	std::cout<<obj.regVar<<obj.constVar<<std::endl;
 }
